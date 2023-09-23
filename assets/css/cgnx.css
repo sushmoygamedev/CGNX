@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 /*--=====normalize start=====--*/
 /*reset code*/
 *{
@@ -85,11 +84,6 @@ abbr[title] {
 
 b,
 strong {
-    font-weight: inherit;
-}
-
-b,
-strong {
     font-weight: bolder;
 }
 
@@ -162,7 +156,8 @@ textarea {
     margin: 0;
 }
 
-button, input {
+button,
+input {
     overflow: visible;
 }
 
